@@ -14,9 +14,9 @@ After making the connections, Upload GCG_2.ino code to Arduino. After successful
 Then connect the Arduino Nano to the Beaglebone as given below
 
 Arduino	-->	Beaglebone
-TX		-->	P9_26
-5V		-->	P9_06
-GND		-->	P9_02
+ TX		-->	P9_26
+ 5V		-->	P9_06
+ GND	-->	P9_02
 
 # QT on Beaglebone
 
