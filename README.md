@@ -16,13 +16,16 @@ Then connect the Arduino Nano to the Beaglebone as given below
  Arduino | Beaglebone
  --- |---
  TX | P9_26
- --- |---
  5V | P9_06
- --- |---
  GND | P9_02 
 
 # QT on Beaglebone
 
 Copy QT/tetrix to /root of the beaglebone.
 
+Run the following commands to start tetrix.
 
+```
+stty -F /dev/ttyS1 9600
+./tetrix
+```
